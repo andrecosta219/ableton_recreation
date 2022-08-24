@@ -1,0 +1,138 @@
+/*
+#FBFFA7 - Amarelo
+#FF764D - Vermelho
+#B1C5FF - Azul
+#D5B3FF - Roxo
+#B6FFC0 - Verde
+#0000FF - Azul escuro
+#FBFCF4 - Branco
+#0F1105 - Preto
+*/
+
+@font-face {
+	font-family: padrao;
+	src: url(ModecoTrial-Regular.otf)
+}
+
+.fundo_azul_escuro {
+	background: #0000FF;
+}
+
+.fundo_branco {
+	background: white;
+}
+
+.fundo_amarelo {
+	background: #FBFFA7;
+}
+
+.fundo_verde {
+	background: #B6FFC0;
+}
+
+.fundo_roxo{
+	background: #D5B3FF;
+}
+
+.fundo_azul {
+	background: #B1C5FF;
+}
+
+.imagem_grande {
+	width: 1280px;
+}
+
+.imagem_media {
+	width: 600px;
+}
+
+.imagem_pequena {
+	width: 450px;
+}
+
+.iconepeq {
+	width: 40px;
+}
+
+body {
+	font-family: padrao;
+	color: #0F1105;
+}
+
+#cabecalho {
+	font-size: 18px;
+}
+
+#live,
+#pushl,
+#linkl,
+#shop,
+#packs,
+#helps,
+#accounts,
+#logouts,
+#jobss {
+	text-decoration: none;
+	color: #0F1105;
+
+}
+
+
+
+#morem, #abouts {
+	color: #FF764D;
+	text-decoration: none;
+}
+
+#tryliveforfree {
+	color: #0000FF;
+	padding-left: 480px;
+}
+
+.sobreposicao {
+	position: relative;
+	z-index: 1;
+}
+
+.linkp1 {
+	color: #0000FF;
+	text-decoration: none;
+}
+
+.linkp1:hover {
+	color: #0000FF;
+	text-decoration: none;
+}
+
+#latestjobs {
+	color: #0000FF;
+	text-decoration: none;
+}
+
+#legendavideo {
+	font-size: 13px;
+}
+
+.linkrodape {
+	color: #0F1105;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.linkrodape:hover {
+	color: #0F1105;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.linkrodapemenor {
+	color: #0F1105;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.linkrodapemenor:hover {
+	color: #0F1105;
+	text-decoration: none;
+	font-size: 14px;
+}
